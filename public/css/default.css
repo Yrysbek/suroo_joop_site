@@ -1,0 +1,244 @@
+body
+{
+    font-family: "lucida grande",tahoma,helvetica,arial,sans-serif;
+    background-color: silver;
+}
+
+#header
+{
+    height: 200px;
+    background-image: url('/public/img/subhanallah-alhamdulillah-allahu-akbar.jpg');
+    background-repeat: no-repeat;
+    background-position: center -100px;
+    background-size: 100% 255%;;
+    font-family: "lucida grande",tahoma,helvetica,arial,sans-serif;
+    text-align: center;
+    background-color: #fff;/*
+    background-size: 100% 200px;*/
+}
+
+#content
+{
+    font-family: "lucida grande",tahoma,helvetica,arial,sans-serif;
+    padding: 10px;
+    background-color: #fff;
+}
+
+#footer
+{
+    font-family: "lucida grande",tahoma,helvetica,arial,sans-serif;
+    padding: 20px;
+    background-color: rgb(33, 48, 129);
+    text-align: center;
+    font: Georgia;
+    color: #FFFFFF;
+}
+
+#left_menu
+{
+
+    vertical-align: top;
+    display: inline-block;
+    padding: 1%;
+    margin-top: 2.5%;
+    width: 12%;
+    text-align: center;
+    font: Georgia;
+}
+
+#main_item{
+    margin-top: 50px;
+    display: inline-block;
+    height: 100%;
+    padding: 1%;
+    width: 70%;
+    font: Georgia;
+}
+
+.default_link_header{
+    text-align: center;
+    color: black;
+    font-size: 16px;
+}
+
+a:link{color:inherit}
+a:active{color:inherit}
+a:visited{color:inherit}
+a:hover{color: #2e4aab;}
+a{
+    text-decoration: none; font:16px serif;
+    font-family: "lucida grande",tahoma,helvetica,arial,sans-serif;
+}
+
+b{
+    text-decoration: none; font:1.1em/1.0 Georgia,serif;
+}
+
+.header-button{
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    color:#000000;
+    border-radius: 5px;
+    border: 1px solid silver;
+    box-shadow: 4px 4px 5px silver;
+    background: #C7C3E5; /* Для старых браузров */
+    background: -moz-linear-gradient(top, #C7C3E5, #AEABC9); /* Firefox 3.6+ */
+    /* Chrome 1-9, Safari 4-5 */
+    background: -webkit-gradient(linear, left top, left bottom,color-stop(0%,#C7C3E5), color-stop(100%,#AEABC9));/* Chrome 10+, Safari 5.1+ */
+    background: -webkit-linear-gradient(top, #C7C3E5, #AEABC9);
+    background: -o-linear-gradient(top, #C7C3E5, #AEABC9); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #C7C3E5, #AEABC9); /* IE10 */
+    background: linear-gradient(top, #C7C3E5, #AEABC9); /* CSS3 */
+}
+.header-button:hover{
+    color:#000000;
+    border-radius: 5px;
+    border: 1px solid #6477ff;
+    box-shadow: 1px 1px 10px #46adff;
+    background: #AEABC9; /* Для старых браузров */
+    background: -moz-linear-gradient(top, #AEABC9, #C7C3E5); /* Firefox 3.6+ */
+    /* Chrome 1-9, Safari 4-5 */
+    background: -webkit-gradient(linear, left top, left bottom,color-stop(0%,#AEABC9), color-stop(100%,#C7C3E5));/* Chrome 10+, Safari 5.1+ */
+    background: -webkit-linear-gradient(top, #AEABC9, #C7C3E5);
+    background: -o-linear-gradient(top, #AEABC9, #C7C3E5); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #AEABC9, #C7C3E5); /* IE10 */
+    background: linear-gradient(top, #AEABC9, #C7C3E5); /* CSS3 */
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.lang_kg{
+    background: url("/public/img/flags.jpg") repeat scroll -496px -170px transparent;
+    height: 23px;
+    width: 30px;
+    right: 12px;
+    top: 12px;
+    display: inline-block;
+    position: absolute;
+    cursor: pointer;
+}
+.lang_ru{
+    background: url("/public/img/flags.jpg") repeat scroll -364px -302px transparent;
+    height: 23px;
+    width: 30px;
+    right: 45px;
+    top: 12px;
+    display: inline-block;
+    position: absolute;
+    cursor: pointer;
+}
+
+#header-button-line
+{
+    font-family: Days;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin-top: 5px;
+}
+
+.splitter{
+    position: relative;
+    vertical-align: middle;
+    top: 200px;
+    padding: 1px;
+    font-size: 1.2em;
+    font: bold;
+}
+
+#galleria{
+    width: 720px;
+    height: 550px;
+    background: #000000;
+}
+
+#gallery_fullscreen{
+    display: none;
+    background-color: white;
+    bottom: 90px;
+    height: 22px;
+    left: 64%;
+    position: relative;
+    text-align: center;
+    width: 26px;
+    z-index: 5;
+    cursor: pointer;
+}
+#gallery_fullscreen_img{
+    height: 20px;
+    width: 20px;
+}
+
+@font-face {
+    font-family: Days;
+    src: url(/public/css/days/days-webfont.eot) format("opentype");
+}
+
+#nav{
+    background: url("/public/img/nav_bg.png") repeat-x scroll 0 0 transparent;
+    clear: both;
+    color: #FDFDFD;
+    font-size: 14px;
+    height: 42px;
+    line-height: 14px;
+}
+
+#nav ul{
+    display: table;
+    list-style: none outside none;
+    margin: 0 0 0 30%;
+    padding: 0;
+    width: 70%;
+}
+
+#nav li {
+    background: url("/public/img/nav_li_bg.png") no-repeat scroll 0 100% transparent;
+    display: table-cell;
+    float: left;
+    margin: 0;
+    position: relative;
+}
+
+#nav li a{
+    font-family: "lucida grande",tahoma,helvetica,arial,sans-serif;
+    color: #FFFFFF;
+    display: block;
+    padding: 11px 10px;
+    text-decoration: none;
+}
+
+#nav li:hover a, #nav li.active a{
+    background-color: #0000ff;
+}
+
+.selected-item{
+    background-color: #0000ff;
+}
+/**
+parralax HEADER
+*/
+.parallax-viewport { /* Стили основного бокса */
+    background-image: url("/public/img/1.jpg");
+    width:100%;
+    height:350px;
+}
+.parallax-viewport {
+    /* Тут не указана ширина, так как все слои в моём примере
+    имеют одинаковую width и height*/
+    position: relative;
+    overflow: hidden;
+}
+.parallax-layer {
+    /* Обязательное позиционирование для каждой картинки */
+    position: absolute;
+}
+.site_wrap {
+    max-height: 350px;
+    width:100%;
+    margin: auto auto;
+}

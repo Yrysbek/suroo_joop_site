@@ -1,0 +1,145 @@
+.div-create-suroo-joop-form{
+    border: 3px solid #CFCBEA;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 1px 1px 3px;
+    height: 100%;
+    width: 100%;
+}
+.sj-suroo{
+    text-align: justify;
+    color: red;
+}
+.sj-joop{
+    text-align: justify;
+    color: green;
+}
+.bolum-div{
+    display: inline-block;
+    border: 5px solid silver;
+    height: 15%;
+    margin: 5px;
+    text-align: center;
+    vertical-align: middle;
+    width: 25%;
+    cursor: pointer;
+    overflow: hidden;
+}
+.bolum-div:hover{
+    border: 5px solid #df8b00;
+}
+
+.selected-bolum-div
+{
+    border: 5px solid #2736df;
+}
+
+.link:hover{
+    color: orange;
+    cursor: pointer;
+}
+
+#create_suroo_joop_form{
+    padding: 5px;
+}
+
+.transparent{
+    color: silver;
+    font: italic;
+}
+
+.scrollup{
+    width:40px;
+    height:40px;
+    opacity:0.3;
+    position:fixed;
+    bottom:50px;
+    left: 93%;
+    display:none;
+    text-indent:-9999px;
+    background: url('/public/img/icon_top.png') no-repeat;
+}
+
+.imgClass {
+    background-image: url(/public/img/search-button.png);
+    background-repeat: no-repeat;
+    width: 78px;
+    height: 44px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.selectBlock
+{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-style: oblique;
+    height: 40px;
+    padding: 10px;
+}
+.inputBlock
+{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-style: oblique;
+    height: 35px;
+    padding-left: 10px;
+}
+
+.redborder
+{
+    border: 3px solid red;
+    background-color: rgba(255, 30, 26, 0.18);
+}
+
+/*******  SE  *
+       *  LE  *
+       *  CT *
+***************
+*  CH  *
+*  AN  *
+*  GE  ********/
+
+/*
+.newListSelected{
+    width:360px;
+    position: relative;
+    top: 10px;
+    display: inline-block;
+}
+.selectedTxt{
+    width:340px;
+    height:35px;
+    padding:0 10px 0 10px;
+    overflow:hidden;
+    background:url(/public/img/select.png);
+    color:#000;
+    font-size:12px;
+    line-height:35px;
+    zoom:0;
+    position:relative;
+    z-index:1;
+}
+.newList{
+    list-style:none;
+    padding:0;
+    margin:0 0 0 1px;
+    width: 352px;
+    position:absolute;
+    z-index:500;
+    top: 35px;
+}
+.newList li{padding:0;margin:0;}
+.newList li a{
+    display:block;
+    background:#FFF;
+    opacity:0.75;
+    filter:alpha(opacity=75);
+    font-size:12px;
+    padding:0 1px;
+    outline:none;
+    height:15px;
+    padding:1px 0 0 1px;
+    overflow:hidden;
+}
+.newList li a:link,.newList li a:visited,.newList li a:hover{color:#000;text-decoration:none;}
+.newList li a.hiLite,.newList li a.newListHover{opacity:0.95;filter:alpha(opacity=95);}*/
