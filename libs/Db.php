@@ -9,11 +9,11 @@ Class Db{
  * configuration
  *
  */
-    private static  $db_host = 'localhost'; //mysql.hostinger.ru
-    private static  $db_user = 'root'; //u789258995_ustaz
-    private static $db_password = ''; //123u789258995_ustaz
+    private static  $db_host = 'localhost';
+    private static  $db_user = 'r00t';
+    private static $db_password = 'p@55w0rd';
     private static $conn;
-    private static $db = 'u789258995_ustaz';
+    private static $db = 'y0urd@t@b@5e';
 
 /**
  * @var result
